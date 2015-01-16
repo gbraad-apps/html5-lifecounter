@@ -6,6 +6,7 @@
     "url": "http://gbraad.nl"
   },
   "launch_path": "/index.html",
+  "appcache_path": "/manifest.appcache",
   "icons": {
     "16": "/icons/icon16x16.png",
     "48": "/icons/icon48x48.png",
