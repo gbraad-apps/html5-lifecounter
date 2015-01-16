@@ -14,10 +14,10 @@
    id="svg2"
    version="1.1"
    inkscape:version="0.48.5 r10040"
-   sodipodi:docname="icon_scalable-shield.svg"
-   inkscape:export-filename="/home/gbraad/Projects/fxos-lifecounter/lifecounter/icons/icon60x60.png"
-   inkscape:export-xdpi="10.465824"
-   inkscape:export-ydpi="10.465824">
+   sodipodi:docname="icon_scalable-shield-2.svg"
+   inkscape:export-filename="/home/gbraad/Projects/html5-google-authenticator/img/icon_152.png"
+   inkscape:export-xdpi="26.929094"
+   inkscape:export-ydpi="26.929094">
   <defs
      id="defs4" />
   <sodipodi:namedview
@@ -27,18 +27,19 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="0.7"
-     inkscape:cx="412.59744"
-     inkscape:cy="129.99977"
+     inkscape:zoom="0.98994949"
+     inkscape:cx="234.59838"
+     inkscape:cy="282.12334"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
-     showgrid="false"
+     showgrid="true"
      units="px"
      inkscape:window-width="1440"
      inkscape:window-height="873"
      inkscape:window-x="0"
      inkscape:window-y="27"
-     inkscape:window-maximized="1" />
+     inkscape:window-maximized="1"
+     showguides="false" />
   <metadata
      id="metadata7">
     <rdf:RDF>
@@ -102,28 +103,18 @@
            transform="translate(59.020248,566.45884)" />
       </g>
     </g>
+    <path
+       style="fill:#b3b3b3;fill-opacity:1;stroke:#000000;stroke-width:5.33631802;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       d="m 256,543.84659 c -83.13601,0 -156.987585,39.57306 -203.65625,100.84375 l 0,166.25 c 0,0 12.726903,171.72838 203.65625,237.93746 190.94585,-66.20908 203.65625,-237.93746 203.65625,-237.93746 l 0,-166.25 C 412.98759,583.41965 339.13601,543.84659 256,543.84659 z"
+       id="path3973"
+       inkscape:connector-curvature="0" />
+    <path
+       style="fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:4.37501955;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       d="m 256,586.03027 c -67.2501,0 -126.9899,32.88309 -164.740948,83.79572 l 0,138.14477 c 0,0 10.294998,142.69703 164.740948,197.71324 154.45931,-55.01621 164.74095,-197.71324 164.74095,-197.71324 l 0,-138.14477 C 382.98989,618.91336 323.2501,586.03027 256,586.03027 z"
+       id="path3973-1"
+       inkscape:connector-curvature="0" />
     <g
-       transform="matrix(5.5013354,0,0,5.2018097,-24.452577,538.00654)"
-       id="Your_Icon"
-       style="fill:#b3b3b3;fill-opacity:1;stroke:#000000;stroke-width:0.99875093;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none">
-      <path
-         inkscape:connector-curvature="0"
-         d="M 50.978,1 C 69.488,1 88,4.239 88,4.239 v 48.243 c 0,0 -2.313,33.092 -37.022,45.851 C 16.272,85.574 13.958,52.482 13.958,52.482 V 4.239 c 0,0 18.51,-3.239 37.02,-3.239 z"
-         id="path3973"
-         style="fill:#b3b3b3;fill-opacity:1;stroke:#000000;stroke-width:0.99875093;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none" />
-    </g>
-    <g
-       transform="matrix(4.2699498,0,0,4.2709178,38.322231,579.63749)"
-       id="Your_Icon-9"
-       style="fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:0.99875093;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none">
-      <path
-         inkscape:connector-curvature="0"
-         d="M 50.978,1 C 69.488,1 88,4.239 88,4.239 v 48.243 c 0,0 -2.313,33.092 -37.022,45.851 C 16.272,85.574 13.958,52.482 13.958,52.482 V 4.239 c 0,0 18.51,-3.239 37.02,-3.239 z"
-         id="path3973-4"
-         style="fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:0.99875093;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none" />
-    </g>
-    <g
-       transform="matrix(2.4942594,0,0,2.4942594,131.83078,650.24164)"
+       transform="matrix(2.4942594,0,0,2.4942594,131.83078,656.24164)"
        id="g4991"
        style="fill:#ff8c00;fill-opacity:1">
       <polygon
@@ -134,7 +125,7 @@
       <polygon
          transform="matrix(-1,0,0,1,99.564,0)"
          id="polygon4963"
-         points="82.146,14.141 34.306,4.075 41.663,29.509 80.891,14.657 "
+         points="80.891,14.657 82.146,14.141 34.306,4.075 41.663,29.509 "
          style="fill:#ff8c00;fill-opacity:1" />
       <polygon
          transform="matrix(-1,0,0,1,99.564,0)"
@@ -164,7 +155,7 @@
       <polygon
          transform="matrix(-1,0,0,1,99.564,0)"
          id="polygon4975"
-         points="65.583,95.45 66.325,94.458 83.009,66.159 31.782,83.631 "
+         points="31.782,83.631 65.583,95.45 66.325,94.458 83.009,66.159 "
          style="fill:#ff8c00;fill-opacity:1" />
       <polygon
          transform="matrix(-1,0,0,1,99.564,0)"
