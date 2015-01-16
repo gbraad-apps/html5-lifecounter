@@ -46,9 +46,22 @@ html, body {
 
 .player-life-total {
   font-size: 6em;
+  font-weight: bold;
 }
 
 .player-life-up,
 .player-life-down {
   font-size: 3em;
+}
+
+.blue {
+    color: rgb(0, 112, 224);
+}
+
+.lightblue {
+    color: rgb(15, 147, 249);
+}
+
+.orange {
+    color: rgb(255, 140, 0);
 }
