@@ -1,9 +1,9 @@
 window.addEventListener("load", function() {
   var d = document;
   var player1LifeTotal = d.getElementById("player1-life-total");
-  var player1LifeCount = parseInt(player1LifeTotal.innerText);
+  var player1LifeCount = parseInt(player1LifeTotal.innerHTML);
   var player2LifeTotal = d.getElementById("player2-life-total");
-  var player2LifeCount = parseInt(player2LifeTotal.innerText);
+  var player2LifeCount = parseInt(player2LifeTotal.innerHTML);
 
   player1LifeUp = d.getElementById("player1-life-up");
   player1LifeUp.addEventListener("click", function() {
