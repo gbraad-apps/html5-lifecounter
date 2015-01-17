@@ -1,7 +1,11 @@
-HTML5 Life COunter
+HTML5 Life Counter
 ==================
 
 A simple life counter application for a popular trading card game which can be used from any browser.
+No frameworks are used.
+
+[LifeCounter](http://lifecounter.apps.gbraad.nl)
+
 
 Authors
 -------
