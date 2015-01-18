@@ -36,6 +36,7 @@
     "test": "gulp",
     "start": "node server.js"
   },
+  "main": "server.js",
   "engines": {
     "node": "0.10.x"
   }
