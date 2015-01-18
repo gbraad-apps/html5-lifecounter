@@ -1,26 +1,22 @@
 window.addEventListener("load", function() {
   var d = document;
-  var player1LifeTotal = d.getElementById("player1-life-total");
-  var player1LifeCount = parseInt(player1LifeTotal.innerHTML);
-  var player2LifeTotal = d.getElementById("player2-life-total");
-  var player2LifeCount = parseInt(player2LifeTotal.innerHTML);
+  var players = d.getElementsByClassName("player");
+ 
+  var playerLifeUp = function() {
+    var playerLifeTotalElem = this.parentNode.getElementsByClassName("player-life-total")[0];
+    playerLifeTotalElem.innerHTML = parseInt(playerLifeTotalElem.innerHTML) + 1;
+  }
 
-  player1LifeUp = d.getElementById("player1-life-up");
-  player1LifeUp.addEventListener("click", function() {
-    player1LifeTotal.innerHTML = ++player1LifeCount;
-  });
-  player1LifeDown = d.getElementById("player1-life-down");
-  player1LifeDown.addEventListener("click", function() {
-    player1LifeTotal.innerHTML = --player1LifeCount;
-  });
+  var playerLifeDown = function() {
+    var playerLifeTotalElem = this.parentNode.getElementsByClassName("player-life-total")[0];
+    playerLifeTotalElem.innerHTML = parseInt(playerLifeTotalElem.innerHTML) - 1;
+  }
 
-  player2LifeUp = d.getElementById("player2-life-up");
-  player2LifeUp.addEventListener("click", function() {
-    player2LifeTotal.innerHTML = ++player2LifeCount;
-  });
-  player2LifeDown = d.getElementById("player2-life-down");
-  player2LifeDown.addEventListener("click", function() {
-    player2LifeTotal.innerHTML = --player2LifeCount;
-  });
+  for (var i = 0; i < players.length; i++) {
+    var lifeUp = players[i].getElementsByClassName("player-life-up")[0];
+    lifeUp.addEventListener("click", playerLifeUp);
+    var lifeDown = players[i].getElementsByClassName("player-life-down")[0];
+    lifeDown.addEventListener("click", playerLifeDown);
+  }
 
 });
