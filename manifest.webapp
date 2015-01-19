@@ -1,6 +1,6 @@
 {
   "name": "LifeCounter",
-  "version": "0.1.9",
+  "version": "0.1.11",
   "description": "A life counter for TCG",
   "developer": {
     "name": "Gerard Braad",
