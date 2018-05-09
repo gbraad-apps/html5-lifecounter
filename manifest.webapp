@@ -1,10 +1,10 @@
 {
   "name": "LifeCounter",
-  "version": "0.1.11",
+  "version": "0.1.12",
   "description": "A life counter for TCG",
   "developer": {
     "name": "Gerard Braad",
-    "url": "http://gbraad.nl"
+    "url": "https://gbraad.nl"
   },
   "launch_path": "/index.html",
   "appcache_path": "/manifest.appcache",
